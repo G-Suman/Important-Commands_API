@@ -1,8 +1,11 @@
+ls -l: Use case: To view detailed information about files and directories in the current directory.
 
- -  **`ls -l`**: **Use case**: To view detailed information about files and directories in the current directory.
- - **`ls -l foldername`**:    **Use case**: To view detailed information about files and directories within a specific directory.
-    
- - **ls -r foldername**:-  **Use case**: To list the contents of the specified folder (`foldername`) in reverse order.
- - **ls -lt foldername**:-   **Use case**: To list the  modification time with the newest files appearing first.
- - **ls -la foldername**:-   **Use case**: To list all contents, including hidden files and directories, of the specified folder (`foldername`) in long format.
- - **ls -lRa dir/subdir**:-   **Use case**: To list all contents of the specified directory (`dir/subdir`) and its subdirectories recursively in long format, including hidden files and directories.
+ls -l foldername: Use case: To view detailed information about files and directories within a specific directory.
+
+ls -r foldername:- Use case: To list the contents of the specified folder (foldername) in reverse order.
+
+ls -lt foldername:- Use case: To list the modification time with the newest files appearing first.
+
+ls -la foldername:- Use case: To list all contents, including hidden files and directories, of the specified folder (foldername) in long format.
+
+ls -lRa dir/subdir:- Use case: To list all contents of the specified directory (dir/subdir) and its subdirectories recursively in long format, including hidden files and directories.
