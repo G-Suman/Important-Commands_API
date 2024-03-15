@@ -11,3 +11,4 @@ cp : copy the file into the another folder ,
 for file : cp foldername/filename space destination foldername / ,
 copy the empty folder into the another folder : cp -r foldername space destinaton foldername
 10 : clear : clear the terminal
+11 : relative path : desktop/foldername
