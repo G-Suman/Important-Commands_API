@@ -72,3 +72,61 @@ function toLower(str) {
   console.log("After toLowerCase:", str.toLowerCase());
 }
 toLower("Hello World");
+
+//replace - remove the whitespaces between of Strings
+function trimMiddleSpaces(str) {
+  console.log("Original String:", str);
+  console.log("After middle trim:", str.replace(/\s+/g, ''));
+}
+
+trimMiddleSpaces(" He llo Worl d");  
+
+// concat
+function concatenateStrings(str1, str2) {
+  console.log("Concatenating:", str1, str2);
+  console.log("After concat:", str1.concat(str2));
+}
+concatenateStrings("Hello", " World");
+
+// charAt
+function getCharAt(str, index) {
+  console.log("Original String:", str);
+  console.log("Character at index", index, ":", str.charAt(index));
+}
+getCharAt("Hello World", 6);
+
+// charCodeAt
+function getCharCodeAt(str, index) {
+  console.log("Original String:", str);
+  console.log("Character code at index", index, ":", str.charCodeAt(index));
+}
+getCharCodeAt("Hello World", 6);
+
+// startsWith
+function startsWithString(str, searchString) {
+  console.log("Original String:", str);
+  console.log("Starts with", searchString, "?", str.startsWith(searchString));
+}
+startsWithString("Hello World", "Hello");
+
+// endsWith
+function endsWithString(str, searchString) {
+  console.log("Original String:", str);
+  console.log("Ends with", searchString, "?", str.endsWith(searchString));
+}
+endsWithString("Hello World", "World");
+
+// includes
+function includesString(str, searchString) {
+  console.log("Original String:", str);
+  console.log("Includes", searchString, "?", str.includes(searchString));
+}
+includesString("Hello World", "Hello");
+
+// repeat
+function repeatString(str, count) {
+  console.log("Original String:", str);
+  console.log("Repeated", count, "times:", str.repeat(count));
+}
+repeatString("Hello", 3);
+
