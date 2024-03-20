@@ -32,3 +32,7 @@ git commit -am
 git rm --cached filename
 git commit -m "message " - m "message "
 git fetch
+ // suppose you committed on the that branch and pushed the changes mistakely on that branch , but , you have to make a new branch and push changes and make a new 
+// pull request so , how to remove this commit on that branch and make a changes in the remote repo .
+git log . , git reset id , git add . , git stash (gone) , git push origin branchname -f // because remote repo contains that commit that my 
+// local repo doesnot contains , so match that , i must forcefully pushed ... 
